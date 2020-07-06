@@ -21,3 +21,34 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.buy-button:hover{
+    color: #fff;
+}
+/*category */
+.cat1, .cat2, .cat3{
+    padding: 15px 25px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.cat1{
+    background-image: linear-gradient(to bottom,rgb(238, 159, 14) 0%,rgb(128, 120, 12) 100%);
+}
+.cat2{
+    background-image: linear-gradient(to bottom,rgb(186, 226, 8) 0%,rgb(3, 66, 3) 100%);
+   
+}
+.cat3{
+    background-image: linear-gradient(to bottom,rgb(58, 190, 157) 0%,rgb(182, 169, 52) 100%);
+}
+.categories h1{
+color: white;
+}
+.categories img{
+    width: 125px;
+}
+.crd{
+    box-shadow: 3px 4px 8px 2px;
+}
